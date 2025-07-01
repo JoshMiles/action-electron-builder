@@ -1,5 +1,5 @@
-name: Electron Builder Action (Maintened)
-author: YanJobs & Samuel Meuli
+name: Electron Builder Action (Maintained)
+author: YanJobs & Samuel Meuli & Joshua Miles
 description: GitHub Action for building and releasing Electron apps
 
 inputs:
