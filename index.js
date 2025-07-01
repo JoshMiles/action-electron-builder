@@ -132,7 +132,7 @@ const runAction = () => {
 			run(
 				`${useNpm ? "npx --no-install" : "yarn run"} ${cmd} --${platform} ${
 					release ? "--publish always" : ""
-				} ${(platform == "mac") ? "--universal" : ""}	${args}`,
+				} ${(platform == "mac") ? "--x64 --arm64" : ""}	${args}`,
 				appRoot,
 			);
 			break;
